@@ -1,0 +1,74 @@
+
+
+NET "clk100MHz" LOC = AG18;
+NET "switches[0]" LOC = J19;
+NET "switches[1]" LOC = L18;
+NET "switches[2]" LOC = K18;
+NET "switches[3]" LOC = H18;
+NET "eth_mdc" LOC = N5;
+NET "eth_mdio" LOC = U10;
+NET "eth_rst_b" LOC = L4;
+NET "eth_rxck" LOC = L19;
+NET "eth_rxctl" LOC = N8;
+NET "eth_txck" LOC = J20;
+NET "eth_txctl" LOC = T10;
+NET "eth_txd[7]" LOC = U7;
+NET "eth_txd[6]" LOC = T11;
+NET "eth_txd[5]" LOC = R11;
+NET "eth_txd[4]" LOC = T8;
+NET "eth_txd[3]" LOC = R7;
+NET "eth_txd[2]" LOC = F5;
+NET "eth_txd[1]" LOC = G5;
+NET "eth_txd[0]" LOC = J5;
+NET "eth_rxd[7]" LOC = L6;
+NET "eth_rxd[6]" LOC = M5;
+NET "eth_rxd[5]" LOC = M6;
+NET "eth_rxd[4]" LOC = M7;
+NET "eth_rxd[3]" LOC = P5;
+NET "eth_rxd[2]" LOC = P6;
+NET "eth_rxd[1]" LOC = R6;
+NET "eth_rxd[0]" LOC = N7;
+
+
+NET "eth_txer" LOC = R8;
+
+
+NET "eth_rxd[7]" IOSTANDARD = LVCMOS25;
+NET "eth_rxd[6]" IOSTANDARD = LVCMOS25;
+NET "eth_rxd[5]" IOSTANDARD = LVCMOS25;
+NET "eth_rxd[4]" IOSTANDARD = LVCMOS25;
+NET "eth_rxd[3]" IOSTANDARD = LVCMOS25;
+NET "eth_rxd[2]" IOSTANDARD = LVCMOS25;
+NET "eth_rxd[1]" IOSTANDARD = LVCMOS25;
+NET "eth_rxd[0]" IOSTANDARD = LVCMOS25;
+NET "eth_txd[7]" IOSTANDARD = LVCMOS25;
+NET "eth_txd[6]" IOSTANDARD = LVCMOS25;
+NET "eth_txd[5]" IOSTANDARD = LVCMOS25;
+NET "eth_txd[4]" IOSTANDARD = LVCMOS25;
+NET "eth_txd[3]" IOSTANDARD = LVCMOS25;
+NET "eth_txd[2]" IOSTANDARD = LVCMOS25;
+NET "eth_txd[1]" IOSTANDARD = LVCMOS25;
+NET "eth_txd[0]" IOSTANDARD = LVCMOS25;
+NET "switches[3]" IOSTANDARD = LVCMOS25;
+NET "switches[2]" IOSTANDARD = LVCMOS25;
+NET "switches[1]" IOSTANDARD = LVCMOS25;
+NET "switches[0]" IOSTANDARD = LVCMOS25;
+NET "eth_mdc" IOSTANDARD = LVCMOS25;
+NET "clk100MHz" IOSTANDARD = LVCMOS25;
+NET "eth_mdio" IOSTANDARD = LVCMOS25;
+NET "eth_rst_b" IOSTANDARD = LVCMOS25;
+NET "eth_rxck" IOSTANDARD = LVCMOS25;
+NET "eth_rxctl" IOSTANDARD = LVCMOS25;
+NET "eth_txck" IOSTANDARD = LVCMOS25;
+NET "eth_txctl" IOSTANDARD = LVCMOS25;
+
+
+NET "eth_txer" IOSTANDARD = LVCMOS25;
+
+# PlanAhead Generated physical constraints 
+
+NET "eth_int_n" LOC = T6;
+
+# PlanAhead Generated IO constraints 
+
+NET "eth_int_n" IOSTANDARD = LVCMOS25;
